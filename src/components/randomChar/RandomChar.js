@@ -23,10 +23,9 @@ class RandomChar extends Component {
   componentDidMount() {
       this.getData()
       //this.timerId = setInterval(this.getData,3000)
-      console.log('mount')
+      
   }
   onGetDataLoaded = (char) => {
-      console.log('update')
       this.setState({char,spinner:false})
   }
   onError = () => {

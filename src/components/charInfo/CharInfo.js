@@ -26,6 +26,7 @@ class CharInfo extends Component {
 
     componentDidUpdate(prevProps, prevState) {
         if (prevProps!== this.props) {
+            this.setState({spinner:true})
             let id = this.props.charId
             this.marvelService.getOneCharacter(id)
             .then(this.onCharInfoLoaded) // ми не можем тут визвать фцию, в char автоматически приходит значение кот. пришло с getOneCharacter
