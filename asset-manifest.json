@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/React-App-MarvelCharacters/static/css/main.6aca5036.chunk.css",
-    "main.js": "/React-App-MarvelCharacters/static/js/main.696966ed.chunk.js",
-    "main.js.map": "/React-App-MarvelCharacters/static/js/main.696966ed.chunk.js.map",
+    "main.css": "/React-App-MarvelCharacters/static/css/main.ae73b6ad.chunk.css",
+    "main.js": "/React-App-MarvelCharacters/static/js/main.e81ffeec.chunk.js",
+    "main.js.map": "/React-App-MarvelCharacters/static/js/main.e81ffeec.chunk.js.map",
     "runtime-main.js": "/React-App-MarvelCharacters/static/js/runtime-main.d1b13f98.js",
     "runtime-main.js.map": "/React-App-MarvelCharacters/static/js/runtime-main.d1b13f98.js.map",
     "static/js/2.6020d7cf.chunk.js": "/React-App-MarvelCharacters/static/js/2.6020d7cf.chunk.js",
     "static/js/2.6020d7cf.chunk.js.map": "/React-App-MarvelCharacters/static/js/2.6020d7cf.chunk.js.map",
     "index.html": "/React-App-MarvelCharacters/index.html",
-    "static/css/main.6aca5036.chunk.css.map": "/React-App-MarvelCharacters/static/css/main.6aca5036.chunk.css.map",
+    "static/css/main.ae73b6ad.chunk.css.map": "/React-App-MarvelCharacters/static/css/main.ae73b6ad.chunk.css.map",
     "static/js/2.6020d7cf.chunk.js.LICENSE.txt": "/React-App-MarvelCharacters/static/js/2.6020d7cf.chunk.js.LICENSE.txt",
     "static/media/abyss.93d211d3.jpg": "/React-App-MarvelCharacters/static/media/abyss.93d211d3.jpg",
     "static/media/error_.42292aa1.gif": "/React-App-MarvelCharacters/static/media/error_.42292aa1.gif",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.d1b13f98.js",
     "static/js/2.6020d7cf.chunk.js",
-    "static/css/main.6aca5036.chunk.css",
-    "static/js/main.696966ed.chunk.js"
+    "static/css/main.ae73b6ad.chunk.css",
+    "static/js/main.e81ffeec.chunk.js"
   ]
 }
