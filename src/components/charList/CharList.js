@@ -31,7 +31,6 @@ class CharList extends Component {
 
   loadMoreCharacters = () => {
     this.setCounter();
-    console.log(this.state.counter + 9);
     this.marvelServices
       .getAllCharacters(this.state.counter + 9)
       .then(this.onCharListLoaded)
