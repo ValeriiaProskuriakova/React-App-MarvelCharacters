@@ -2,8 +2,8 @@
 
 Marvel Characters is a React web application for displaying the requested and random Marvel characters as well as information about them.
 It is based on Marvel API used via fetch request.
-Class and functional components, as well as lifecycle methods are used.
-The app is styled with SCSS.
+The app constains class and functional, stateless and stateful components, lifecycle methods.
+The styling is done with SCSS.
 
 ## Installation
 
@@ -30,14 +30,14 @@ In order to generate the random character, click on the button "TRY IT":
 \
 \
 \
-Click on any character, to see the information about them on the right side:
+ Click on any character, to see the information about them on the right side:
 \
 \
 ![screenshot-charinfo](/src/resources/img/screenshots_github/charinfo.png?raw=true)
 \
 \
 \
-Click on the button "LOAD MORE" to see more characters:
+ Click on the button "LOAD MORE" to see more characters:
 \
 \
 ![screenshot-charinfo](/src/resources/img/screenshots_github/loadmore.png?raw=true)
