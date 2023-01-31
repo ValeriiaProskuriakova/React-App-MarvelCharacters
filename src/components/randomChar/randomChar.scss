@@ -7,7 +7,7 @@
     &__block {
         padding: 40px 35px;
         display: grid;
-        grid-template-columns: 190px auto;
+        grid-template-columns: 189px auto;
         column-gap: 30px;
     }
     &__img {
@@ -21,7 +21,7 @@
     }
     &__info {
         display: grid;
-        grid-template-rows: minmax(25px, auto) 110px 38px;
+        grid-template-rows: minmax(25px, auto) minmax(110px,auto) 38px;
         row-gap: 10px;
         padding-top: 3px;
     }
