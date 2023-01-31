@@ -1,4 +1,4 @@
-# Marvel-Api website displaying marvel characters 
+# React web application based on Marvel API 
 
 Marvel Characters is a React web application for displaying the requested and random Marvel characters as well as information about them.
 It is based on Marvel API used via fetch request.
@@ -15,9 +15,14 @@ Otherwise, to run this project locally, download the package from main branch an
 ```bash
 npm install
 ```
+Afterwards, launch it with this command:
+
+```bash
+npm start
+```
 
 ## Usage
 
-In order to generate the random character, click on the button "TRY IT" ![screenshot-tryit-button](/src/resources/img/screenshots_github/tryit?raw=true)
-Click on any character, to see the information about them on the right side ![screenshot-charinfo](/src/resources/img/screenshots_github/charinfo?raw=true)
-Click on the button "LOAD MORE" to see more characters ![screenshot-charinfo](/src/resources/img/screenshots_github/loadmore?raw=true)
+In order to generate the random character, click on the button "TRY IT" ![screenshot-tryit-button](/src/resources/img/screenshots_github/tryit.png?raw=true)
+Click on any character, to see the information about them on the right side ![screenshot-charinfo](/src/resources/img/screenshots_github/charinfo.png?raw=true)
+Click on the button "LOAD MORE" to see more characters ![screenshot-charinfo](/src/resources/img/screenshots_github/loadmore.png?raw=true)
