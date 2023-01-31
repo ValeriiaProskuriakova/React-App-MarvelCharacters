@@ -24,18 +24,20 @@ npm start
 ## Usage
 
 In order to generate the random character, click on the button "TRY IT":
-&nbsp;
-&nbsp;
+\
+\
 ![screenshot-tryit-button](/src/resources/img/screenshots_github/tryit.png?raw=true) 
-&nbsp;
-&nbsp;
+\
+\
 Click on any character, to see the information about them on the right side:
-&nbsp;
-&nbsp;
+\
+\
 ![screenshot-charinfo](/src/resources/img/screenshots_github/charinfo.png?raw=true)
-&nbsp;
-&nbsp;
+\
+\
 Click on the button "LOAD MORE" to see more characters:
-&nbsp;
-&nbsp;
-![screenshot-charinfo](/src/resources/img/screenshots_github/loadmore.png?raw=true)<br/>
+\
+\
+![screenshot-charinfo](/src/resources/img/screenshots_github/loadmore.png?raw=true)
+\
+\
