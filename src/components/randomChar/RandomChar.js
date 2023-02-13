@@ -32,7 +32,7 @@ class RandomChar extends Component {
 
   getData = () => {
     this.onTryIt();
-    let id = Math.floor(Math.random() * (1011400 - 1011000) + 1011000);
+    let id = Math.floor(Math.random() * (1011400 - 1011000) + 1011000); //numbers taken from Marvel API characters id numeration
     this.marvelService
       .getOneCharacter(id)
       .then(this.onGetDataLoaded) 

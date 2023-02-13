@@ -12,7 +12,7 @@ class CharList extends Component {
       charList: [],
       spinner: true,
       error: false,
-      counter: 9,
+      offset: 9,
     };
   }
 
@@ -20,25 +20,26 @@ class CharList extends Component {
 
   componentDidMount() {
     this.marvelServices
-      .getAllCharacters("9")
+      .getAllCharacters("9",0)
       .then(this.onCharListLoaded)
       .catch(this.onError);
   }
-  setCounter = () => {
-    let counter = this.state.counter + 9;
-    this.setState({ counter: counter });
+  setOffset = () => {
+    let offset = this.state.offset + 9;
+    this.setState({ offset: offset, spinner: true });
   };
 
   loadMoreCharacters = () => {
-    this.setCounter();
+    this.setOffset();
     this.marvelServices
-      .getAllCharacters(this.state.counter + 9)
+      .getAllCharacters("9", this.state.offset + 9)
       .then(this.onCharListLoaded)
       .catch(this.onError);
   };
   onCharListLoaded = (list) => {
-    this.setState({ charList: list, spinner: false });
-  };
+    this.setState ((prevState) => 
+      ({ charList: [...prevState.charList, ...list], spinner: false })
+  )};
   onError = () => {
     this.setState({ error: true, spinner: false });
   };
@@ -67,6 +68,7 @@ class CharList extends Component {
     });
 
     return <ul className="char__grid">{charItem}</ul>;
+
   };
 
   render() {
